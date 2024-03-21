@@ -8,9 +8,11 @@ services:
       - ./mongoData:/data/db
     ports:
       - "27018:27017"
+    entrypoint: mongod --bind_ip_all
     networks:
       - admin
+
 networks:
-    admin:
-        name: admin
-        driver: bridge
+  admin:
+    name: admin
+    driver: bridge
