@@ -1,0 +1,12 @@
+ll
+ls
+mongo
+exit
+mongo
+exit
+mongo
+exti
+exit
+mongo
+mongo
+exit
