@@ -1,0 +1,16 @@
+version: "3.8"
+
+services:
+  database:
+    image: mongo:4.4
+    container_name: database
+    volumes:
+      - ./mongoData:/data/db
+    ports:
+      - "27018:27017"
+    networks:
+      - admin
+networks:
+    admin:
+        name: admin
+        driver: bridge
