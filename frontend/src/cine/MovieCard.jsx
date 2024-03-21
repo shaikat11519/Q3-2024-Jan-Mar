@@ -12,9 +12,7 @@ export default function MovieCard({ movie }) {
 
     function hadleAddToCart(event, movie) {
         event.stopPropagation();
-        console.log("movie", movie);
         const found = state.cartData.find((item) => {
-            console.log("item", item);
             return item._id === movie._id;
         });
 

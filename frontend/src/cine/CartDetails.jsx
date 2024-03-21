@@ -46,10 +46,14 @@ export default function CartDetails({ onClose }) {
         }
       }
     function handleCheckout (e) {
+        const fakeData = {};
         e.preventDefault();
         postData();
+        dispatch({
+            type:"CLEAR_FROM_CART" 
+        });
         onClose();
-        toast.success(`Thank you.`, {
+        toast.success(`Your data save on DB.`, {
             position: toast.POSITION.BOTTOM_RIGHT,
         });
     }
