@@ -22,7 +22,7 @@ _Dockerize react, Node and MongoDB Application_
 
 
 ### Run your local PC
- - cd database and run this command: ``` docker-compose up --build ```
- - cd backend and run this command: ``` docker-compose up --build ```
- - cd frontend and run this command: ``` docker-compose up --build ```
- - Hit on your browser: http://localhost:3000/
+ - ```cd database``` and run this command: ``` docker-compose up --build ```
+ - ```cd backend``` and run this command: ``` docker-compose up --build ```
+ - ```cd frontend``` and run this command: ``` docker-compose up --build ```
+ - Hit on your browser: ```http://localhost:3000/```
